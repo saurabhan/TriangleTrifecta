@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face  { font-family: "Averta";
+            src: url("/assets/font/Averta Cyrillic Bold.otf");
+            src: url("/assets/font/Averta Cyrillic Light.otf");
+            src: url("/assets/font/Averta Cyrillic Regular.otf");
+            src: url("/assets/font/Averta Cyrillic SemiBold.otf");
+}
+:root {
+    --primary-color : #111827;
+    --steel-gray : #D1D5DB;
+    --pastel-blue : #2CCED2;
+    --pastel-orange : #F27348;
+    --lightgrey : #D1D5D8;
+
+    font-family: "Averta";
+}
+
+.nav{
+    background-color: white 5%;
+    max-width: 1200px;
+    height: 5rem;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.brand{
+    margin: 1rem;
+    font-size: 2rem;
+}
+.navlist{
+    font-size: 1rem;
+    max-width: 1000px;
+    text-align: right;
+    padding: 1rem
+}
+
+.navlink{
+    padding-left: 1rem;
+    display: inline;
+
+}
+
+.navpill{
+    color: black;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+.navpill:hover{
+    color: #4ee3ff;
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: var(--pastel-blue);
+    color: white;
+    align-items: center;
+}
+
+.footext{
+    text-decoration: none;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.footext > a{
+    padding: 10px;
+    color: black;
+}
+
+.footext > a:hover{
+    color: lightblue;
+}
+
+.container{
+    width: 1200px;
+    align-items: center;
+    margin: auto;
+    color:black;
+    text-align: center;
+}
+
+.input{
+    padding: 15px;
+    margin: 1.5rem;
+  font-weight: bold;
+  font-size: 1rem;
+  background-color: white;
+  border-radius: 50px;
+}
+
+.inputSide{
+    padding: 15px;
+    margin: 1.5rem;
+  font-weight: bold;
+  font-size: 1rem;
+  background-color: white;
+  border-radius: 50px;
+}
+
+.calculate {
+    margin: 1rem;
+    font-size: 1.5rem;
+    background-color: lightcyan;
+    border: 3px solid darkcyan;
+    border-radius: 50px;
+    padding: 15px;
+  }
+  
+.calculate:hover {
+    color: white;
+    background-color: darkcyan;
+  }
+
+.ques{
+    margin: 20px;
+    font-size: 1.5rem;
+}
+
+.ques > label{
+    padding: 10px;
+    margin: 10px;
+}
